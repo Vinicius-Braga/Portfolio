@@ -1,0 +1,22 @@
+@import '../variables.scss';
+
+.navbar {
+   height: 80px;
+}
+
+.logo {
+    width: 130px;
+}
+
+.nav_link {
+    margin-left: 40px;
+    color: $color-primary;
+    transition: none;
+    font-size: 15px;
+}
+
+.nav_link:hover {
+    color: $color-primary;
+    border-bottom: 1px solid $color-secondary;
+
+}
